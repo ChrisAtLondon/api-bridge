@@ -1,0 +1,8 @@
+spring:
+  main:
+    banner-mode: "off"
+server:
+  port: 41000
+
+dll:
+  file-name:
