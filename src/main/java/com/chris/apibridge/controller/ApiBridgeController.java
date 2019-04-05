@@ -24,7 +24,7 @@ public class ApiBridgeController {
       method = RequestMethod.POST,
       produces = "application/json")
   @ApiOperation(value = "Send data through bridge", response = String.class)
-  public ResponseEntity<String> publishNotes(
+  public ResponseEntity<String> invokeDll(
       @RequestBody
           @ApiParam(value = "data to send", required = true)
           @RequestParam(value = "traffic")
